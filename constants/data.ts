@@ -131,7 +131,7 @@ export const settings: Setting[] = [
     },
 ];
 
-interface Facility {
+export interface Facility {
     title: string;
     icon: string;
 }
