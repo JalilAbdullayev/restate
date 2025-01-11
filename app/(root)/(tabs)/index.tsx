@@ -7,8 +7,8 @@ const Index = () =>
         justifyContent: "center",
         alignItems: "center",
     }}>
-        <Text>
-            Edit app/index.tsx to edit this screen.
+        <Text className='font-bold text-lg my-10'>
+            Welcome to ReState
         </Text>
         <Link href='/sign-in'>
             Sign In
