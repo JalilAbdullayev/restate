@@ -7,7 +7,7 @@ const Index = () =>
         justifyContent: "center",
         alignItems: "center",
     }}>
-        <Text className='font-bold text-lg my-10'>
+        <Text className='font-bold text-3xl my-10 font-rubik'>
             Welcome to ReState
         </Text>
         <Link href='/sign-in'>
