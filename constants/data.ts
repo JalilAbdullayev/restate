@@ -1,5 +1,6 @@
 import icons from "./icons";
 import images from "./images";
+import {ImageSourcePropType} from "react-native";
 
 interface Card {
     title: string;
@@ -92,7 +93,7 @@ export const categories: Category[] = [
 
 interface Setting {
     title: string;
-    icon: string;
+    icon: ImageSourcePropType;
 }
 
 export const settings: Setting[] = [
